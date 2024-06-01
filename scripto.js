@@ -6,11 +6,11 @@ document.getElementById('passcode-form').addEventListener('submit', function(eve
     const validPasscode = 'CSS2024'; // Replace with your actual passcode
 
     if (passcode === validPasscode) {
-        errorMessage.textContent = 'way kiss? haha!';
+        errorMessage.textContent = 'CORRECR!';
         errorMessage.style.color = 'green';
         window.location.href = 'index.htm';// Redirect or perform other actions upon success
     } else {
-        errorMessage.textContent = 'Wrong pangayo password ni Genkent Pagnanawon on fb';
+        errorMessage.textContent = 'Wrong Passcode!';
         errorMessage.style.color = 'red';
     }
 });
