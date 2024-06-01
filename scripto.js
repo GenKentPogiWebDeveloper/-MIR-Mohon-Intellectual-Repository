@@ -3,7 +3,7 @@ document.getElementById('passcode-form').addEventListener('submit', function(eve
     event.preventDefault();
     const passcode = document.getElementById('passcode').value;
     const errorMessage = document.getElementById('error-message');
-    const validPasscode = 'kentpogi'; // Replace with your actual passcode
+    const validPasscode = 'CSS2024'; // Replace with your actual passcode
 
     if (passcode === validPasscode) {
         errorMessage.textContent = 'way kiss? haha!';
