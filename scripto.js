@@ -6,7 +6,7 @@ document.getElementById('passcode-form').addEventListener('submit', function(eve
     const validPasscode = 'CSS2024'; // Replace with your actual passcode
 
     if (passcode === validPasscode) {
-        errorMessage.textContent = 'CORRECR!';
+        errorMessage.textContent = 'CORRECT!';
         errorMessage.style.color = 'green';
         window.location.href = 'index.htm';// Redirect or perform other actions upon success
     } else {
